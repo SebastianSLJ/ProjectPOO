@@ -5,5 +5,6 @@ from polls import views
 # Patrones de urls
 urlpatterns = [    
     path('admin/', admin.site.urls),  
-    path('', include('polls.urls')),  # path de aplicacion (polls)
+    path('', include('polls.urls')),  # path de aplicacion principal (polls)
+    path('empleos/', include('jobs.urls')) # path de pagina de empleos (job)
 ]

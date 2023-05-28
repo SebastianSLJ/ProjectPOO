@@ -8,3 +8,4 @@ def home(request): #path home
 def registro(request): #path encuesta
     return render(request, "polls/registro.html")
 
+
