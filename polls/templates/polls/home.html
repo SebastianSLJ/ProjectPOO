@@ -1,14 +1,103 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+{% extends "polls/base.html" %}
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Inicio</title>
-</head>
-
-<h1>Hola desde el inicio</h1>
+{% load static %}
 
 
-</html>
+
+{% block content %}
+
+   <section id = "seccion1">
+    <div id = "c_seccion1">
+      <div id = "links_seccion1">
+        <a href="" class="">BUSCA EMPLEO</a>
+        <a href="" class="">BUSCA TRABAJO</a>
+        <a href="" class="">ASESÓRATE</a>
+      </div>
+      <p id="mensaje">Haz tus sueños<br>realidad, consigue tu<br>primer trabajo</p>
+    </div>
+   </section>
+
+   <section id="seccion2">
+    <div id = "c_seccion2">
+      <img src = "{% static 'polls/img/apreton.png' %}" alt = "sobre nosotros" id = "s_nosotros">
+      <p><strong><span id = "t_pequeño">SOBRE NOSOTROS</span></strong><br>Somos una plataforma en línea dedicada a<br>brindar asistencia a jóvenes en su<br>búsqueda de empleo. Nuestra misión<br>principal es ofrecer una amplia gama de<br>herramientas y recursos que permitan a los<br>jóvenes conseguir su primer empleo de<br>manera más sencilla y efectiva.</p>
+    </div>
+   </section>
+
+   <section id = "seccion3">
+    <div id = "c_seccion3">
+      <p>NUESTRAS HERRAMIENTAS</p>
+    </div>
+   </section>
+
+
+   <section id = "seccion4">
+
+    <div id = "c_seccion4_1">
+      <img src = "{% static 'polls/img/curriculum.jpeg' %}" alt = "curriculum vitae" id = "curriculum">
+      <div id ="contenido_seccion4_1">
+        <h2>Curriculum Vitae</h2>
+        <p>Nuestra plataforma ofrece a<br>los usuarios la posibilidad<br>crear un currículum<br>profesional de manera fácil y<br>eficiente, presentando sus<br>habilidades y experiencia de<br>manera atractiva a posibles<br>empleadores en busca de<br>nuevos talentos.</p>
+        <a href="" class="">PRUEBALO YA</a>
+      </div>
+    </div>
+
+
+    <div id = "c_seccion4_2">
+      <img src = "{% static 'polls/img/computador.jpg' %}" alt = "trabajando" id = "computador">
+      <div id ="contenido_seccion4_2">
+        <h2>Diversidad de empleos según<br>tus habilidades</h2>
+        <p>Nuestra plataforma ofrece<br>una amplia gama de<br>oportunidades laborales<br>diseñadas para adaptarse a<br>diversas habilidades y<br>capacidades de los usuarios.</p>
+        <a href="" class="">PRUEBALO YA</a>
+      </div>
+    </div>
+
+    <div id = "c_seccion4_3">
+      <img src = "{% static 'polls/img/trabajo_juvenil.png' %}" alt = "trabajo juvenil" id = "trabajo_juvenil">
+      <div id ="contenido_seccion4_3">
+        <h2>Gran variedad de talento juvenil</h2>
+        <p>Nuestra plataforma se<br>enorgullece de poder ofrecer<br>a las empresas la oportunidad<br>de conectarse con una gran<br>variedad de talentos juveniles<br>altamente capacitados y<br>motivados.</p>
+        <a href="" class="">PRUEBALO YA</a>
+      </div>
+    </div>
+
+   </section>
+
+  <section id = "seccion5">
+
+    <h2 id="mensaje2">!Que esperas para unirte¡</h2>
+
+    <div class="contenedor">
+      <div class="imagen-cuadro">
+        <img src="{% static 'polls/img/buscar.jpg' %}" alt="Imagen 1" id="buscar">
+        <div class="cuadro">
+          <div class="contenido">
+            <h2>REGISTRATE</h2>
+            <p>¿Eres una persona en busca de<br>empleo? o ¿Una empresa en<br>busca de talento?</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="imagen-cuadro">
+        <img src="{% static 'polls/img/trabajo.jpg' %}" alt="Imagen 2" id="buscar_empleo">
+        <div class="cuadro">
+          <div class="contenido">
+            <h2>BUSCA EMPLEO</h2>
+            <p>Descubre la oportunidad que<br>mejor se adapte a tus<br>necesidades.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="imagen-cuadro">
+        <img src="{% static 'polls/img/talentoj.jpg' %}" alt="Imagen 3" id="equipo">
+        <div class="cuadro">
+          <div class="contenido">
+            <h2>BUSCA TALENTO</h2>
+            <p>Encuentra el perfil que mejor se<br>adapte a las necesidades de tu<br>empresa.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+{% endblock %}

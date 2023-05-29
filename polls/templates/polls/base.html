@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  {% load static %}
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel = "stylesheet" href="{% static 'polls/css/gestion1.css' %}">
+
+  <title>Document</title>
+
+</head>
+
+<body>
+  
+  <header>
+
+    <a href ="{% url 'Home' %}" class = "logo">
+      <img src = "{% static 'polls/img/maleta.png' %}" alt = "logo de la pagina">
+      <h2 class = "logo-nombre">First Step Job</h2>
+
+    </a>
+
+    <nav>
+
+      <a href="{% url 'Aspirantes' %}">Entrar</a>
+      <a href="{% url 'Registro' %}">Registro</a>
+      <a href="{% url 'Empresas' %}">Empleos</a>  
+
+    </nav>
+
+  </header>
+
+  {% block content %}
+
+
+  {% endblock %}
+
+  <footer>
+    
+    <div id = "arriba">
+      <h2 id="motivacion"><strong>Sueños<br>Cumplidos</strong></h2>
+
+      <div id="direccion">
+        <h4><strong>DIRECCION</strong></h4>
+        <p>Calle Vista Unos, 33<br>Bogota, C.P.3333</p>
+      </div>
+
+
+    </div>
+
+    <div id = "abajo">
+
+      <div id = "correo">
+        <h4><strong>CORREO</strong></h4>
+        <p>FirstStepJob@gmail.com</p>
+      </div>
+
+      <div id = "telefono">
+        <h4><strong>TELEFONO</strong></h4>
+        <p>333 333 333</p>
+      </div>
+
+    </div>
+    
+  </footer>
+
+  <script src="{% static 'FirstStep_JobsApp/vendor/jquery/jquery.min.js' %}"></script>
+  <script src="{% static 'FirstStep_JobsApp/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+</body>
+
+</html>

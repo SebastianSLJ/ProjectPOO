@@ -1,0 +1,278 @@
+body{
+  background-color: white;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  display: flex;
+  min-height: 70px;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo img{
+  height: 40px;
+  margin-right: 10px;
+}
+
+nav a{
+  font-weight: 600;
+  margin: 65px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover{
+  color: black;
+  background-color: gray;
+  transition: background-color 0.3s ease;
+}
+
+footer{
+  height: 250px;
+  background-color: white;
+  padding: 30px;
+}
+
+#arriba{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#abajo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top:25px;
+}
+
+
+#motivacion{
+  margin-left: 100px;
+}
+
+
+#correo{
+  margin-left: 100px;
+}
+
+
+#direccion{
+  padding-right: 100px;
+}
+
+#telefono{
+  padding-right: 155px;
+}
+
+
+/*home*/
+/*seccion 1*/
+
+#links_seccion1{
+  padding-top: 20px;
+}
+
+#c_seccion1{
+  height: 600px;
+  background: url("../img/trabajo2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#c_seccion1 a{
+  margin: 20px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 600;
+  padding-right: 100px;
+  padding-top: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#c_seccion1 a:hover{
+  color: black;
+}
+
+#mensaje{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 50px;
+  font-size: 75px;
+  color: white;
+}
+
+
+/*seccion 2*/
+
+#seccion2{
+  height: 450px;
+}
+
+#s_nosotros{
+  height: 70px;
+}
+
+#c_seccion2{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#c_seccion2 p{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+#t_pequeño {
+  color: gray;
+  font-size: 20px;
+}
+
+
+/*seccion 3*/
+
+#c_seccion3 p{
+  padding-left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*seccion 4*/
+
+#c_seccion4_1, #c_seccion4_2, #c_seccion4_3{
+  display: flex;
+  align-items: center;
+}
+
+
+#continido_seccion4_1, #continido_seccion4_2, #continido_seccion4_3{
+  display: flex;
+  flex-direction: column;
+}
+
+
+#curriculum {
+  margin-right: 60px;
+}
+
+#computador {
+  height: 526px;
+  width: 700px;
+  margin-right: 60px;
+}
+
+
+#trabajo_juvenil {
+  height: 526px;
+  width: 700px;
+  margin-right: 60px;
+}
+
+
+#seccion4 p{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#seccion4 h2{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#seccion4 a{
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#c_seccion4_1 a:hover, #c_seccion4_2 a:hover, #c_seccion4_3 a:hover{
+  color: black;
+  border: 2px solid gray;
+  transition: background-color 0.3s ease;
+}
+
+/*seccion 5*/
+
+#mensaje2{
+  padding-top: 80px;
+  font-size: 40px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+}
+
+.imagen-cuadro {
+  position: relative;
+}
+
+.cuadro {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: white;
+  padding: 10px;
+  width: 80%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 28px;
+}
+
+.contenido {
+  text-align: center;
+  width: 100%;
+}
+
+.contenido h2, .contenido p {
+  margin: 0;
+  color: gray;
+}
+
+.contenido h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.contenido p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+#buscar, #buscar_empleo, #equipo{
+  height: 350px;
+  width: 400px;
+}
+
+
