@@ -1,0 +1,38 @@
+{% extends "polls/base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+    {% for post in posts %}
+<head>    
+    <style>
+      .image-box {
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 300px;
+        margin: 0 auto;
+      }
+      .image-box img {
+        max-width: 100%;
+      }
+      .field-label {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-box">
+      
+      <p><span class="field-label">Título:</span> {{post.titulo}}</p>
+      <p><span class="field-label">Autor:</span> {{post.autor}}</p>
+      <p><span class="field-label">Fecha de creación:</span> {{post.updated}}</p>
+      <p><span class="field-label">Ubicación:</span> {{post.ubicacion}}</p>
+    </div>
+    <img src = "{{post.imagen.url}}" style="width: 25%;">
+</body>
+
+    {% endfor %}
+
+
+{% endblock %}

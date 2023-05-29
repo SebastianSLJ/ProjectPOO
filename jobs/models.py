@@ -23,7 +23,6 @@ class Post(models.Model):
     categorias = models.ManyToManyField(Categorias)
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now_add=True)
-
     class Meta:
         verbose_name = 'empleo'
         verbose_name_plural = 'empleos'

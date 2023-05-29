@@ -14,3 +14,5 @@ def aspirantes(request): #path aspirantes
 def empresas(request): #path empresas
     return render(request, "polls/principal_empresas.html")
 
+
+
