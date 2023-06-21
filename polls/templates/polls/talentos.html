@@ -1,0 +1,384 @@
+{% extends "jobs/empleos.html" %}
+{% load static %}
+{% block title %} Talentos {% endblock %}
+
+{% block content %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Jobs Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <h1 class="text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">Candidates</h1>
+            <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.3s">
+                <p>Encuentre talento para su empresa rapidamente</p>
+                <div class="tab-content">
+                    <div id="tab-1" class="tab-pane fade show p-0 active">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="{% static 'polls/img/maleta.png' %}" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Alejandro Gómez Pérez</h4>
+                                        <h5 class="mb-3">Ingeniero de software</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Bogotá, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad de los Andes</span>
+                                        <h6>Soy un ingeniero de software altamente capacitado con experiencia en desarrollo de aplicaciones y programación. <br>
+                                            Tengo habilidades en lenguajes de programación como Java y Python, así como conocimientos en bases de datos y <br>
+                                            resolución de problemas técnicos.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 12 Feb, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-2.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">María Rodríguez García</h4>
+                                        <h5 class="mb-3">Médica</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Medellín, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad Nacional de Colombia</span>
+                                        <h6>Soy médica con amplia experiencia en diagnóstico, tratamiento y cuidado de pacientes. <br>
+                                             Poseo habilidades de comunicación efectiva, empatía y toma de decisiones bajo presión. Además, <br>
+                                             tengo conocimientos en diversas áreas médicas y habilidades para trabajar en equipo.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 29 Nov, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-3.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Juan López Fernández</h4>
+                                        <h5 class="mb-3">Arquitecto</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cali, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad de Antioquia</span>
+                                        <h6>Como arquitecto, poseo una sólida formación en diseño arquitectónico y planificación espacial. <br>
+                                             Tengo habilidades en software de diseño asistido por computadora (CAD) y conocimientos en normativas y regulaciones de construcción. <br>
+                                              Soy creativo/a y capaz de traducir las necesidades de los clientes en diseños funcionales y estéticamente atractivos.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 04 Oct, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-4.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Sofía Torres Ruiz</h4>
+                                        <h5 class="mb-3">Abogada</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Barranquilla, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad del Rosario</span>
+                                        <h6>Soy un abogada con habilidades en investigación jurídica, redacción de documentos legales y representación de clientes. <br>
+                                            Tengo conocimientos en diferentes áreas del derecho, como derecho civil, laboral y penal. <br>
+                                             Además, soy capaz de analizar casos y aplicar estrategias legales efectivas.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 17 Jul, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-5.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Diego Vargas Morales</h4>
+                                        <h5 class="mb-3">Profesor</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cartagena, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad Javeriana</span>
+                                        <h6>Como profesor, tengo experiencia en impartir clases y transmitir conocimientos de manera efectiva. <br>
+                                            Poseo habilidades pedagógicas, capacidad de adaptación a diferentes estilos de aprendizaje y capacidad para 
+                                            crear un ambiente de aprendizaje positivo. Además, tengo conocimientos en mi área de especialización y capacidad <br>
+                                            para desarrollar planes de estudio.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 09 Apr, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
+                    </div>
+                    <div id="tab-2" class="tab-pane fade show p-0">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-1.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Gabriela Morales Sánchez</h4>
+                                        <h5 class="mb-3">Diseñadora gráfica</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Bucaramanga, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad del Norte</span>
+                                        <h6>Soy una diseñadora gráficoa creativo/a con habilidades en software de diseño y experiencia en creación de imágenes y materiales visuales. <br>
+                                            Tengo conocimientos en diseño de logotipos, identidad corporativa, diseño web y marketing visual. <br>
+                                            Además, soy capaz de interpretar las necesidades del cliente y plasmarlas en diseños atractivos y efectivos.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 28 Sep, 2022</small>
+                                </div>
+                            </div>
+                        </divRewa, INDIA
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-2.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Adrián Velasco Mendoza</h4>
+                                        <h5 class="mb-3">Contador</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pereira, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad del Valle</span>
+                                        <h6>Como contador, tengo habilidades en análisis financiero, gestión de registros contables y preparación de informes fiscales. <br>
+                                            Soy experto en el uso de software contable y tengo conocimientos en normativas y regulaciones contables. <br>
+                                            Además, soy meticuloso, organizado y capaz de mantener la confidencialidad de la información financiera.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 06 Mar, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-3.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Valeria Herrera Castro</h4>
+                                        <h5 class="mb-3">Chef</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Santa Marta, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad de La Sabana</span>
+                                        <h6>Soy una chef con amplia experiencia en preparación de alimentos, gestión de cocina y creación de menús. <br>
+                                            Tengo habilidades culinarias y conocimientos en técnicas de cocina, control de calidad y manipulación de alimentos. <br>
+                                            Además, soy creativa, capaz de trabajar bajo presión y mantener altos estándares de servicio.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 23 Dec, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-4.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Rafael Montenegro Ortega</h4>
+                                        <h5 class="mb-3">Periodista</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Manizales, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad de Antioquia</span>
+                                        <h6> Como periodista, tengo habilidades en investigación, redacción y comunicación efectiva. <br>
+                                            Poseo conocimientos en ética periodística, producción de noticias y uso de herramientas multimedia. <br>
+                                            Además, soy curioso, analítico y capaz de trabajar en equipo para obtener información precisa y relevante.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 14 May, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-5.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Isabella Rojas Núñez</h4>
+                                        <h5 class="mb-3">Psicóloga</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cúcuta, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad Javeriana</span>
+                                        <h6>Soy una psicólogoa con habilidades en evaluación, diagnóstico y terapia psicológica. <br>
+                                            Tengo conocimientos en teorías psicológicas, técnicas de intervención y habilidades de escucha activa. <br>
+                                            Además, soy empática, comprensiva y capaz de brindar apoyo emocional a mis pacientes.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 18 Aug, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
+                    </div>
+                    <div id="tab-3" class="tab-pane fade show p-0">
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="img/com-logo-1.jpg" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Andrés Silva Ríos</h4>
+                                        <h5 class="mb-3">Enfermero</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Pasto, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad del Valle</span>
+                                        <h6>Soy un enfermero altamente capacitado con habilidades en atención médica y cuidado de pacientes. <br>
+                                            Tengo conocimientos en procedimientos médicos, administración de medicamentos y seguimiento de registros médicos. <br>
+                                            Además, soy diligente, compasivo y capaz de trabajar en equipo en entornos de atención médica.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 02 Jan, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="{% static 'polls/img/com-logo-2.jpg' %}" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Natalia Gutiérrez Vega</h4>
+                                        <h5 class="mb-3">Mecánica</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Villavicencio, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad Nacional de Colombia</span>
+                                        <h6>Como mecánica, tengo habilidades en diagnóstico, reparación y mantenimiento de vehículos. <br>
+                                            Poseo conocimientos en sistemas mecánicos, electrónicos y de automoción. <br>
+                                            Soy meticulosa, resolutiva y capaz de solucionar problemas técnicos de manera eficiente.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 30 Jun, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="{% static 'polls/img/com-logo-3.jpg' %}" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Mateo Cordero Salazar</h4>
+                                        <h5 class="mb-3">Agricultor</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Ibagué, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad de los Andes</span>
+                                        <h6>Como agricultor, tengo habilidades en cultivo, manejo de tierras y producción agrícola. <br>
+                                            Poseo conocimientos en técnicas agrícolas, cuidado de cultivos y gestión de plagas. <br>
+                                            Además, soy trabajador, orientado a resultados y capaz de adaptarme a los desafíos del entorno agrícola.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 11 Nov, 2023</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="{% static 'polls/img/com-logo-4.jpg' %}" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Camila Peña Navarro</h4>
+                                        <h5 class="mb-3">Electricista</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Cartagena, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad Industrial de Santander</span>
+                                        <h6>Soy una electricista con habilidades en instalación, mantenimiento y reparación de sistemas eléctricos. <br>
+                                            Tengo conocimientos en cableado, circuitos eléctricos y normativas de seguridad. <br>
+                                            Además, soy detallista, hábil para solucionar problemas y capaz de trabajar de forma segura en entornos eléctricos.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 21 Mar, 2024</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="job-item p-4 mb-4">
+                            <div class="row g-4">
+                                <div class="col-sm-12 col-md-8 d-flex align-items-center">
+                                    <img class="flex-shrink-0 img-fluid border rounded" src="{% static 'polls/img/com-logo-5.jpg' %}" alt="" style="width: 80px; height: 80px;">
+                                    <div class="text-start ps-4">
+                                        <h4 class="mb-3">Lucía Espinosa Delgado</h4>
+                                        <h5 class="mb-3">Consultora de negocios</h5>
+                                        <span class="text-truncate me-3"><i class="fa fa-map-marker-alt text-primary me-2"></i>Bogotá, Colombia</span>
+                                        <span class="text-truncate me-3"><i class="far fa-clock text-primary me-2"></i>Universidad del Norte</span>
+                                        <h6>Como consultora de negocios, tengo habilidades en análisis empresarial, estrategia y mejora de procesos. <br>
+                                            Poseo conocimientos en diferentes áreas funcionales, como finanzas, marketing, operaciones y recursos humanos. Soy capaz de identificar <br>
+                                            áreas de mejora, desarrollar soluciones adaptadas a las necesidades de los clientes y brindar recomendaciones estratégicas.</h6>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-4 d-flex flex-column align-items-start align-items-md-end justify-content-center">
+                                    <div class="d-flex mb-3">
+                                        <a class="btn btn-light btn-square me-3" href=""><i class="far fa-heart text-primary"></i></a>
+                                        <a class="btn btn-primary" href="">Ver mas</a>
+                                    </div>
+                                    <small class="text-truncate"><i class="far fa-calendar-alt text-primary me-2"></i>Fecha: 07 Sep, 2022</small>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary py-3 px-5" href="">Browse More Jobs</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jobs End -->
+</body>
+</html>
