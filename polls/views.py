@@ -14,5 +14,6 @@ def sobre(request): #path aspirantes
 def empresas(request): #path empresas
     return render(request, "polls/principal_empresas.html")
 
-
+def talentos(request): #path talentos
+    return render(request, "polls/talentos.html")
 
